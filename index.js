@@ -11,9 +11,7 @@ var app = new Vue({
     el: '#app',
     vehicles: [],
     created() {
-        fetch('https://vehctra.herokuapp.com/api/vehicles', {
-                mode: 'no-cors'
-            })
+        fetch('https://vehctra.herokuapp.com/api/vehicles')
             .then(response => response.json())
             .then(json => {
                 this.vehicles = json
