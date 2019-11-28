@@ -6,7 +6,7 @@ async function initialize() {
     var response = await fetch('./templates.json');
     var templates = await response.json();
     console.log(templates);
-    
+
     templates = await loadTemplates(templates);
 
 
