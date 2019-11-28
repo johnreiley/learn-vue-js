@@ -1,0 +1,14 @@
+[
+    {
+        "name": "appNav",
+        "url": "./templates/app-nav.html"
+    },
+    {
+        "name": "dashboard",
+        "url": "./templates/dashboard.html"
+    },
+    {
+        "name": "vehicleSummary",
+        "url": "./templates/vehicle-summary.html"
+    }
+]
